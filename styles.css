@@ -38,7 +38,6 @@ html{
 }
 #nav ul li{ 
 	display: inline-block; 
-	height:100%;
 }
 #nav ul li a,visited{ 
 	color: #CCC; 
@@ -48,7 +47,7 @@ html{
 }
 .header{
     background: url("header.jpg") no-repeat top center fixed;
-    min-height: 700px; 
+    min-height: 40vw; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
