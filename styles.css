@@ -2,7 +2,7 @@ body{
 	overflow-y: scroll; 
 	padding: 0; 
 	margin: 0; 
-	font-family: 'Anton', sans-serif; 
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 16px; 
 	background-color: #F1F1F1; 
 	
@@ -17,7 +17,8 @@ html{
 	background-color: #222; 
 	position: fixed; 
 	width: 100%; top: 0; 
-	height: 70px;
+	font-weight:bold;
+	letter-spacing : 2px;
 }
 	
 #nav-wrapper{ 
@@ -31,18 +32,17 @@ html{
 }
 #nav ul{ 
 	list-style-type: none; 
-	padding: 0; 
+	padding-left: 10px; 
 	margin: 0; 
+
 }
 #nav ul li{ 
 	display: inline-block; 
-}
-#nav ul li:hover{ 
-	background-color: #333; 
+	height:100%;
 }
 #nav ul li a,visited{ 
 	color: #CCC; 
-	display: block; 
+	display: inline-block; 
 	padding: 15px; 
 	text-decoration: none; 
 }
@@ -51,17 +51,17 @@ html{
     min-height: 700px; 
     background-attachment: fixed;
     background-position: center;
-    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 } 
 .logo {
 	font-size : 100px;
-	padding-top: 150px;
+	padding-top: 250px;
 	padding-left: 5%;
-	font-family: 'Anton', sans-serif;
 	text-shadow: 4px 4px 4px gray;
 	color: #FA0;
+	font-family: 'Anton', sans-serif;
+	letter-spacing:4px;
 }
 .sublogo {
 	font-size : 50px;
@@ -69,49 +69,51 @@ html{
 	font-family: 'Anton', sans-serif;
 	text-shadow: 4px 4px 4px gray;
 	color: #FA0;
+	letter-spacing:2px;
 }
 #wrapper{ 
 	width:100%;
 	margin: 0 auto; 
 	text-align: left; 
-	height:1000px;
-	flex:1;
-	flex-wrap : wrap;
-	align-items: center;
-    justify-content: space-around;
 
 }
-#images{ 
-  max-width: 1400px;
-  margin: 40px auto 0 auto;
+.contsection{ 
+  width:100%;
+  margin: 50px auto 0 auto;
   background-color: #FFF;
-  padding: 20px 0;
+  padding: 50px 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
   }
 .box{
-  width: 300px;
-  height: 300px;
-  background-color: #990b47;
-  color: #FFF;
-  line-height: 15px;
+  width: 350px;
+  height: 400px;
+  color: #222;
   text-align: center;
   font-weight: bold;
-  font-size: 15px;
-  font-family: 'Roboto Slab';
+  font-size: 20px;
+  margin-bottom: 20px;
+  letter-spacing:1px;
 }
-.img-1{
+.image{
 	width:300px;
 	height:200px;
 }
+.image2{
+	width:250px;
+	height:250px;
+}
+.contact p {
+	font-size:20px;
+}
 h1{
-	font-size:25px;
+	font-size:25px
+	font-weight:bold;
 }
 @media all and (max-width: 1000px) {
 	#nav a	 {
-	font-size:13px !important;
+	font-size:16px;
 	}
-
 }
